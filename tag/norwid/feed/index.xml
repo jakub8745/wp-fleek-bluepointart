@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Norwid &#8211; Blue Point Art </title>
+	<atom:link href="/tag/norwid/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>DIGITAL ENVIRONMENT FOR DOCUMENTARY, EDUCATIONAL AND CREATIVE ACTIVITIES</description>
+	<lastBuildDate>Thu, 25 Nov 2021 10:38:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2021/10/BluePointGallerySmall.gif</url>
+	<title>Norwid &#8211; Blue Point Art </title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Norwid &#8211; szkice</title>
+		<link>/norwid-szkice</link>
+		
+		<dc:creator><![CDATA[BluePointArt]]></dc:creator>
+		<pubDate>Thu, 01 Apr 2021 09:58:36 +0000</pubDate>
+				<category><![CDATA[Projects]]></category>
+		<category><![CDATA[3Dexhibition]]></category>
+		<category><![CDATA[Norwid]]></category>
+		<guid isPermaLink="false">/?p=96</guid>
+
+					<description><![CDATA[Zapraszamy do oglądania wystawy rysunków i akwafort Cypriana Norwida. W 1852 Londyn, w tułaczej wędrówce poety, stanowił przystanek przed opuszczeniem Europy i podróżą do Stanów Zjednoczonych. Zamiarem organizatorów jest zainteresowanie twórczością ostatniego wielkiego z pokolenia romantyków, który uważał, że najważniejszym zadaniem sztuki jest dążenie do prawdy i budzenie sumień. O Norwidzie Jan Paweł II w [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Zapraszamy do oglądania wystawy rysunków i akwafort Cypriana Norwida</strong>.</p>
+
+
+
+<figure class="wp-block-image size-large is-style-default"><a href="/wp-content/blue_point_3D_gallery/NorwidSketches/index.html" target="_blank" rel="noopener"><img loading="lazy" width="1024" height="419" src="/wp-content/uploads/2021/11/96665C34-DD2D-4FFD-95A8-23A431AC9974-1024x419.jpeg" alt="" class="wp-image-70" srcset="/wp-content/uploads/2021/11/96665C34-DD2D-4FFD-95A8-23A431AC9974-1024x419.jpeg 1024w, /wp-content/uploads/2021/11/96665C34-DD2D-4FFD-95A8-23A431AC9974-300x123.jpeg 300w, /wp-content/uploads/2021/11/96665C34-DD2D-4FFD-95A8-23A431AC9974-768x315.jpeg 768w, /wp-content/uploads/2021/11/96665C34-DD2D-4FFD-95A8-23A431AC9974-1536x629.jpeg 1536w, /wp-content/uploads/2021/11/96665C34-DD2D-4FFD-95A8-23A431AC9974-2048x839.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption><a href="/wp-content/blue_point_3D_gallery/NorwidSketches/index.html" target="_blank" rel="noreferrer noopener">/wp-content/blue_point_3D_gallery/NorwidSketches/index.html</a></figcaption></figure>
+
+
+
+<p>W 1852 Londyn, w tułaczej wędrówce poety, stanowił przystanek przed opuszczeniem Europy i podróżą do Stanów Zjednoczonych. Zamiarem organizatorów jest zainteresowanie twórczością ostatniego wielkiego z pokolenia romantyków, który uważał, że najważniejszym zadaniem sztuki jest dążenie do prawdy i budzenie sumień. O Norwidzie Jan Paweł II w 2001 r. pisał, że: „pozostawił dzieło, z którego emanuje światło pozwalające wejść głębiej w prawdę naszego bycia człowiekiem, chrześcijaninem, Europejczykiem i Polakiem”.</p>
+
+
+
+<p>Projekt odwołujący się do tej wizji, obejmował do tej pory&nbsp;<a href="https://clacu.live-website.com/cyprian-norwid-yesterday-and-today-on-the-bicentenary-of-the-birth-of-the-poet-emigrant">międzynarodową konferencję online</a>,&nbsp;<a href="/wp-content/blue_point_3D_gallery/NorwidSketches/index.html" target="_blank" rel="noreferrer noopener">wystawę szkiców Norwida w wirtualnej Galerii 3D Blue Point Art</a>&nbsp;oraz recital poezji norwidowskiej . Projekt jest skierowany zarówno do znawców, jak i miłośników literatury i kultury artystycznej. W sposób szczególny zapraszamy na konferencję społeczność polską zamieszkałą na emigracji – ze względu na miejsce konferencji, w tym naukowców z różnych dziedzin, obserwatorów życia emigracyjnego, przedstawicieli organizacji i instytucji polonijnych.</p>
+
+
+
+<p>MEDIA SPOŁECZNOŚCIOWE PROJEKTU:&nbsp;<a href="https://www.facebook.com/NorwidwLondynie">https://www.facebook.com/NorwidwLondynie</a><br>KANAŁ YOUTUBE:&nbsp;<a href="https://www.youtube.com/channel/UC-EIoH6aGYQFSNrSq12HtJQ">https://www.youtube.com/channel/UC-EIoH6aGYQFSNrSq12HtJQ</a></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

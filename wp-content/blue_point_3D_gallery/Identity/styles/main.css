@@ -1,0 +1,474 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  width: auto;
+
+  overflow: hidden;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.container-triangle {
+  position: absolute;
+
+  -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg) scaleX(0.8);
+}
+.gg-shape-triangle {
+  position: absolute;
+  transform: scale(var(--ggs, 1));
+  width: 22px;
+  height: 17px;
+  border-left: 1px solid transparent;
+  border-bottom: 2px solid;
+}
+.gg-shape-triangle,
+.gg-shape-triangle::before {
+  display: block;
+  box-sizing: border-box;
+  border-right: 1px solid transparent;
+}
+.gg-shape-triangle::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid transparent;
+  transform: rotate(45deg) skew(9deg, 9deg) scale(1.2);
+  left: 0px;
+  bottom: -16px;
+}
+.dot {
+  height: 21px;
+  width: 21px;
+  background-color: rgb(29, 153, 255);
+  border-radius: 50%;
+  display: inline-block;
+
+  position: relative;
+  left: -17px;
+
+  transform: scaleX(1.2);
+
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes example {
+  0% {
+    left: -20px;
+    top: 0px;
+  }
+  25% {
+    left: 10px;
+    top: -15px;
+  }
+  50% {
+    left: 30px;
+    top: 47px;
+  }
+
+  100% {
+    left: -20px;
+    top: 0px;
+  }
+}
+
+.gallery-name {
+  top: 85px;
+  left: 0%;
+}
+
+
+#loading-screen {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  opacity: 1;
+  transition: 1s opacity;
+  background-color: rgb(243, 243, 243);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(7, 19, 34);
+  --ggs: 9;
+}
+
+#loading-screen.fade-out {
+  opacity: 0;
+}
+
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.infoDOM {
+  position: absolute;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+
+  -webkit-overflow-scrolling: touch;
+
+  opacity: 0;
+  animation: mymove 0.5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  border: solid 1px rgb(5, 5, 5);
+  border-radius: 7px;
+  top: 2em;
+  right: 0.5em;
+  padding: 0.4em;
+
+  width: auto; /*ZMIENIONE NA AUTO*/
+  max-width: 50em;
+  max-height: 90vh;
+  /* justify-content: center;
+  /*text-align: justify;
+  /*text-justify: inter-character;*/
+}
+
+section {
+  overflow: auto;
+  position: relative;
+  font-weight: 400;
+  top: 0em;
+  color: black;
+  padding: 0px;
+}
+/*zmaieni¬em .infoIFRAME na nameOnBar*/
+#nameOnBar {
+  /*overflow: auto;
+  border: 0;
+  height: auto;
+  max-height: 60vh;
+  
+  position: relative;
+  
+  width: auto;*/
+  text-align: left;
+  left: 0;
+  top: 0;
+}
+p {
+  /*position: relative;
+  overflow: auto;*/
+  margin-top: -0.2em;
+  margin-left: 0.4em;
+  max-inline-size: 90%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 120%;
+  color: black;
+}
+
+b {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  top: 30em;
+  left: 2em;
+  color: black;
+}
+.infoFRAME {
+  /*overflow: auto;
+  position: relative;
+  border: 0;*/
+  height: auto;
+  max-height: 60vh;
+  left: 0;
+
+  top: 0;
+  width: auto;
+}
+.open-info-button {
+  font-family: "IBM Plex Sans", sans-serif;
+  /* font-weight: regular;*/
+  color: black;
+  background: rgb(255, 255, 255, 0.5);
+
+  padding: 0em;
+  border: solid 0.1em rgb(0, 0, 0);
+  border-radius: 3px;
+  position: absolute;
+  padding-top: 0.2em;
+  bottom: 0.4em; /* 0.4em*/
+  right: 0.5em;
+  /*transform: rotate(90deg);*/
+}
+#info-icon {
+  height: 1.5em;
+}
+@keyframes mymove {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+
+.exhibition-name {
+  position: absolute;
+  bottom: 4em;
+  left: -1em;
+  width: 20em;
+}
+.exhibition-name .LOGO-wakeUpCall {
+  position: absolute;
+  width: 10em;
+}
+
+.exhibition-name section {
+  font-size: 0.95em;
+  position: absolute;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  top: -0.5em;
+  left: 3em;
+}
+
+.info {
+  height: 2em;
+  width: 2em;
+  background-color: #bbb;
+  border-radius: 50%;
+
+  display: block;
+  position: absolute;
+  right: 1vw;
+  bottom: 0.6em;
+}
+.info h1 {
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  font-size: 2em;
+  font-weight: bold;
+
+  text-decoration: none;
+
+  position: relative;
+  top: -0.8em;
+  right: -0.35em;
+}
+
+#gest1 {
+  animation-name: do-gest;
+  animation-duration: 2s;
+  display: none;
+  position: absolute;
+  bottom: 0.5em;
+  left: 2em;
+}
+
+@keyframes do-gest {
+  from {
+    opacity: 0;
+    /*left: 4.5em;*/
+  }
+  to {
+    opacity: 1;
+    /*left: 7em;*/
+  }
+}
+
+.close-button {
+  height: 1.1em;
+  width: 1.5em;
+  position: absolute;
+
+  right: -0.1em;
+  top: 0.7em;
+  box-sizing: border-box;
+  line-height: 2em;
+  display: inline-block;
+}
+
+.close-button:before,
+.close-button:after {
+  transform: rotate(-45deg);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -15px;
+  display: block;
+  height: 3px;
+  width: 1em;
+  background-color: #7a7a7a;
+  transition: all 0.1s ease-out;
+}
+
+.close-button:after {
+  transform: rotate(45deg);
+}
+
+.close-button:hover:before,
+.close-button:hover:after {
+  transform: rotate(0deg);
+}
+
+a {
+  color: #ff0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#info {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 1; /* TODO Solve this in HTML */
+}
+
+a,
+button,
+input,
+select {
+  pointer-events: auto;
+}
+
+.dg.ac {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 2 !important; /* TODO Solve this in HTML */
+}
+
+#overlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
+}
+
+#overlay button {
+  background: #ffffff;
+  border: 0;
+  color: #000000;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+}
+
+#overlay button section {
+  font-size: 2em;
+}
+#notSupported {
+  width: 50%;
+  margin: auto;
+  background-color: #f00;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/*
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 0.1%;
+  border: 10px solid transparent;
+  border-top-color: #9370db;
+  -webkit-animation: spin 10s linear infinite;
+  animation: spin 1s linear infinite;
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 10%;
+  border: 10px solid transparent;
+  border-top-color: #ba55d3;
+  -webkit-animation: spin 20s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 10%;
+  border: 10px solid transparent;
+  border-top-color: #ff00ff;
+  -webkit-animation: spin 10.5s linear infinite;
+  animation: spin 10.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+*/
